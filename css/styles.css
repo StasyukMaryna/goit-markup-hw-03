@@ -181,27 +181,28 @@ body {
 
 .service-button {
   padding: 16px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
   background-color: var(--second-button-color);
-  /* margin: 0 auto; */
+  border: none;
   margin-top: 0;
   /* display: block; */
-  /* width: 174px; */
   /* text-align: center; */
+  /* border-color: #2e2f42; */
 }
 
 /*------------------- SERVICE----------------- */
 
 /*------------------- RULES----------------- */
+.rules {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .rules-list {
   display: flex;
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 /* .rules-item:not(:last-child) {
@@ -232,10 +233,13 @@ body {
 }
 /*------------------- RULES----------------- */
 /*------------------- PRESENTATION----------------- */
+.presentation {
+  padding-bottom: 120px;
+}
+
 .presentation-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
 }
 
 .presentation-item {
@@ -256,6 +260,7 @@ body {
 /*------------------- TEAM----------------- */
 .team {
   background: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .team-list {
@@ -263,7 +268,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   flex-basis: calc((100% - 72px) / 4);
-  padding-bottom: 120px;
 }
 
 .team-item {
@@ -289,6 +293,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .team-title-name {
   font-weight: 500;
   font-size: 20px;
@@ -307,16 +312,20 @@ body {
 }
 /*------------------- TEAM----------------- */
 /*------------------- PORTFOLIO----------------- */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .portfolio-list-button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 96px;
 }
 
-.portfolio-item-img:not(:nth-last-child(-n + 3)) {
+/* .portfolio-item-img:not(:nth-last-child(-n + 3)) {
   margin-bottom: 48px;
-}
+} */
 
 .potfolio-item:not(:nth-child(5n)) {
   margin-right: 24px;
@@ -339,8 +348,8 @@ body {
 .portfolio-list-img {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
   /* justify-content: space-between; */
-  padding-bottom: 120px;
 }
 
 .portfolio-img {
@@ -350,6 +359,7 @@ body {
 .portfolio-about {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
   background: #ffffff;
   border: 1px solid #e7e9fc;
   border-top: none;
